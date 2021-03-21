@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/Roboto-Regular.ttf");
+}
+
+.oh-really-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 8px;
+  z-index: 3000;
+
+  border-radius: 0 0 8px 0;
+
+  background-color: #FFB088;
+}
+
+.oh-really-popup__icon {
+  width: 32px;
+  height: 32px;
+  display: block;
+
+  background-image: url("chrome-extension://__MSG_@@extension_id__/images/edit-regular.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  color: #FFF;
+
+  cursor: pointer;
+}
